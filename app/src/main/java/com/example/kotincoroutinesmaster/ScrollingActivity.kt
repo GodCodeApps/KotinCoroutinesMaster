@@ -28,6 +28,7 @@ class ScrollingActivity : AppCompatActivity(), CoroutineScope by MainScope() {
 
     }
 
+
     // suspend 方法能够使协程执行暂停，等执行完毕后在返回结果，同时不会阻塞线程 只暂停协程，但不阻塞线程。直到方法返回结果，
     // 这样也不用写 Callback 来取结果，可以使用同步的方式来写异步代码
     //Dispatchers.Default	共享后台线程池里的线程
